@@ -1,0 +1,10 @@
+{
+  "name": "frontend-runner",
+  "private": true,
+  "scripts": {
+    "dev": "cd ./ai-learning-assistant && npm run dev",
+    "build": "npm --prefix ./ai-learning-assistant run build",
+    "lint": "npm --prefix ./ai-learning-assistant run lint",
+    "preview": "npm --prefix ./ai-learning-assistant run preview"
+  }
+}

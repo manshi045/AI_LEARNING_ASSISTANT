@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymongo
+redis
+python-dotenv
+feedparser
+newspaper3k
+requests
+apscheduler
+scikit-learn
+lxml_html_clean
