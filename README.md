@@ -112,4 +112,4 @@ An AI-powered smart learning and productivity platform designed to help students
 -Khushi Chauhan  
 
 ⭐ **Conclusion**  
-This project combines AI + Education to build a powerful learning assistant that enhances productivity, improves understanding, and provides personalized guidance—all in one platform.  
+This project leverages the power of Artificial Intelligence in education to deliver an intelligent learning assistant that streamlines study workflows, improves conceptual clarity, and provides personalized performance-based guidance, making the learning process smarter, faster, and more effective.
