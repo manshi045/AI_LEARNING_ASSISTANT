@@ -61,12 +61,12 @@ An AI-powered smart learning and productivity platform designed to help students
 -LLM Integration  
 -RAG (Retrieval-Augmented Generation) 
 
-**Other Tools**  
--JWT (Authentication)  
--Bcrypt (Password hashing)  
--Nodemailer (Email OTP)  
--Multer (File upload)  
--Redis (Caching)  
+Other Tools
+-JWT (Authentication)
+-Bcrypt (Password hashing)
+-Nodemailer (Email OTP)
+-Multer (File upload)
+-Redis (Caching) 
 
 🧠 **How It Works (Flow)**  
 -User registers/logs in  
