@@ -25,9 +25,63 @@ An AI-powered smart learning and productivity platform designed to help students
 -❓ Quiz Generation
 
 📰 Newspaper Module  
--Fetch daily news summaries  
--Generate Q&A from news articles  
--Helps in current affairs preparation
+How it works-
+
+1. 📅 User Input
+User selects a specific date from the UI
+Request is sent to backend API
+
+2. 🔍 News Fetching (RSS)
+Fetches latest news articles using RSS feeds (e.g., The Hindu)
+Extracts:
+Title
+Article URL
+Publish date
+
+3. 🧹 Content Extraction
+Uses newspaper3k to extract clean article text
+Removes ads, HTML, and irrelevant content
+
+4. 🔁 Deduplication
+Applies TF-IDF + cosine similarity
+Removes duplicate or highly similar articles
+
+5. 🧠 LLM Processing
+📄 Summary Generation
+Combines selected articles
+Generates:
+Key Facts
+Background
+UPSC Importance
+Keywords
+❓ Q/A Generation
+Generates:
+Prelims MCQs
+Mains Questions
+
+6. 🏷️ Tagging & Classification
+Classifies content into UPSC categories:
+Polity
+Economy
+International Relations
+Science & Tech
+Environment
+
+7. ⚡ Optimization Techniques
+Limits number of articles processed
+Uses chunking + aggregation to reduce token usage
+Implements retry logic for API rate limits
+
+8. 💾 Caching & Storage
+Stores processed results in MongoDB (date-wise)
+Uses caching to:
+Avoid recomputation
+Improve response time
+
+9. 🔗 System Integration
+Built as a FastAPI microservice
+Integrated with MERN backend via REST APIs
+
 
 📊 Performance Tracking  
 -Track learning progress  
